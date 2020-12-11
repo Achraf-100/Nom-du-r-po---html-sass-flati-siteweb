@@ -6176,6 +6176,40 @@ body header nav .nav-2 a:hover {
   color: white;
 }
 
+body header .banner {
+  background-color: beige;
+}
+
 body header .banner img {
   width: 100%;
+}
+
+body section {
+  padding-top: 50px;
+  background-color: beige;
+  height: 190px;
+}
+
+body section p {
+  text-align: center;
+  font-size: 20px;
+}
+
+body section p #spaa-1 {
+  background-color: #5555f3;
+  color: white;
+}
+
+body section p #spaa-2 {
+  color: #5555f3;
+  font-weight: bold;
+}
+
+body section p #spaa-3 {
+  font-weight: bold;
+}
+
+body section h2 {
+  text-align: center;
+  font-weight: normal;
 }
