@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    section:last-of-type{
+        .section-2{ display: flex;
+            margin: 0px  315px;
+            .text-btn{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                button{
+                    width: 100px;
+                    background-color: rgb(87, 87, 221);
+                    color: white;
+                    height: 40px;
+                    border: solid 1px;
+                    border-radius: 5px;
+                }
+            }
+            .group-card-2{
+                display: flex;
+                flex: 1;
+            }
+            .img-1{
+                background-color: rgba(58, 53, 70, 0.884);
+                text-align: center;
+                margin-left: 5px;
+                h3{
+                    color: white;
+                }
+                p{
+                    color: rgba(162, 161, 165, 0.884);
+                }
+                #catalogue{
+                    width: 100%;
+                    height: 180px;
+                }
+                #loupe{
+                    width: 100%;
+                    height: 180px;
+                }
+                #retro{
+                    width: 100%;
+                    height: 180px;
+                }
+            }
+        }
+    }
+}

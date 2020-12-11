@@ -6184,6 +6184,12 @@ body header .banner img {
   width: 100%;
 }
 
+body {
+  font-style: "ubuntu-style";
+  margin: 0;
+  padding: 0;
+}
+
 body section:first-of-type {
   padding-top: 50px;
   background-color: beige;
@@ -6212,6 +6218,12 @@ body section:first-of-type p #spaa-3 {
 body section:first-of-type h2 {
   text-align: center;
   font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: "ubuntu-style";
 }
 
 body section:nth-of-type(2) {
@@ -6251,4 +6263,63 @@ body section:nth-of-type(2) .group-card .card h3 {
 
 body section:nth-of-type(2) .group-card .card .p-1 {
   color: blue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body section:last-of-type .section-2 {
+  display: flex;
+  margin: 0px  315px;
+}
+
+body section:last-of-type .section-2 .text-btn {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+body section:last-of-type .section-2 .text-btn button {
+  width: 100px;
+  background-color: #5757dd;
+  color: white;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+body section:last-of-type .section-2 .group-card-2 {
+  display: flex;
+  flex: 1;
+}
+
+body section:last-of-type .section-2 .img-1 {
+  background-color: rgba(58, 53, 70, 0.884);
+  text-align: center;
+  margin-left: 5px;
+}
+
+body section:last-of-type .section-2 .img-1 h3 {
+  color: white;
+}
+
+body section:last-of-type .section-2 .img-1 p {
+  color: rgba(162, 161, 165, 0.884);
+}
+
+body section:last-of-type .section-2 .img-1 #catalogue {
+  width: 100%;
+  height: 180px;
+}
+
+body section:last-of-type .section-2 .img-1 #loupe {
+  width: 100%;
+  height: 180px;
+}
+
+body section:last-of-type .section-2 .img-1 #retro {
+  width: 100%;
+  height: 180px;
 }
